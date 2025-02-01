@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上海楼市政策</title>
+    <style>
+        /* 基本样式 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidebar {
+            width: 200px;
+            /* 侧边栏宽度 */
+            background-color: #f4f4f4;
+            /* 侧边栏背景颜色 */
+            position: fixed;
+            /* 固定位置 */
+            top: 0;
+            left: 0;
+            height: 100%;
+            /* 高度为100% */
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            /* 移除列表样式 */
+            padding: 10px;
+        }
+
+        .sidebar ul li {
+            padding: 0px;
+            /* 列表项内边距 */
+            border-bottom: 1px solid #ddd;
+            /* 底部边框 */
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            /* 移除下划线 */
+            color: #333;
+            /* 文字颜色 */
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .content {
+            margin-left: 220px;
+            /* 内容区域左侧边距，以留出空间给侧边栏 */
+            padding: 20px;
+            /* 内容区域内边距 */
+        }
+
+        header {
+            background: linear-gradient(135deg, #0078d4, #004e8c);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #0078d4;
+            border-bottom: 2px solid #0078d4;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f1f1f1;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>上海楼市政策</h1>
+        <p>发布日期：2024年12月1日</p>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#home">限购政策</a></li>
+            <ul>
+                <li><a href="#home">限购政策</a></li>
+            </ul>
+            <li><a href="#news">贷款</a></li>
+            <ul>
+
+            </ul>
+            <li><a href="#contact">不动产交易税费</a></li>
+            <ul>
+
+            </ul>
+        </ul>
+    </div>
+    <div class="content">
+        <h2>限购政策</h2>
+        <p>这里是主要内容区域。</p>
+        <h2>贷款</h2>
+        <p></p>
+    </div>
+    <div class="content">
+        <section>
+            <h1>限购政策</h1>
+            <p>段落 1 内容...</p>
+            <p>段落 2 内容...</p>
+        </section>
+        <section>
+            <h1>标题 2</h1>
+            <p>段落 3 内容...</p>
+            <p>段落 4 内容...</p>
+        </section>
+        <!-- 更多内容 -->
+    </div>
+    <!-- <div class="load-more">
+        <button onclick="loadMore()">加载更多</button>
+    </div> -->
+
+    <!-- <script>
+        function loadMore() {
+            // 模拟加载更多内容
+            const content = document.querySelector('.content');
+            const newSection = document.createElement('section');
+            newSection.innerHTML = `
+                <h1>新标题</h1>
+                <p>新段落 1 内容...</p>
+                <p>新段落 2 内容...</p>
+            `;
+            content.appendChild(newSection);
+        }
+    </script> -->
+</body>
+
+</html>
